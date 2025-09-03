@@ -1,5 +1,6 @@
 import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
+import AboutSection from '@/components/AboutSection';
 import ServicesSection from '@/components/ServicesSection';
 import PortfolioSection from '@/components/PortfolioSection';
 import PricingSection from '@/components/PricingSection';
@@ -12,6 +13,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Navigation />
       <HeroSection />
+      <AboutSection />
       <ServicesSection />
       <PortfolioSection />
       <PricingSection />
@@ -22,7 +24,7 @@ const Index = () => {
       <footer className="bg-secondary text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-sm opacity-80">
-            © 2024 ЭлектроМастер. Профессиональные электромонтажные работы в Москве и области.
+            © 2024 Алексей Михайлов. Профессиональные электромонтажные работы в Москве и области.
           </p>
         </div>
       </footer>

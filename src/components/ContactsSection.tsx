@@ -42,9 +42,9 @@ const ContactsSection = () => {
     {
       icon: "Mail",
       title: "Email",
-      value: "info@elektromaster.ru",
+      value: "alexey.electro@mail.ru",
       description: "Подробные консультации",
-      action: "mailto:info@elektromaster.ru"
+      action: "mailto:alexey.electro@mail.ru"
     },
     {
       icon: "MapPin",
@@ -69,7 +69,7 @@ const ContactsSection = () => {
             Контакты
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Свяжитесь с нами удобным способом для получения консультации
+            Свяжитесь со мной удобным способом для получения консультации
           </p>
         </div>
 
@@ -81,7 +81,7 @@ const ContactsSection = () => {
                   Заказать звонок
                 </h3>
                 <p className="text-gray-600">
-                  Оставьте заявку и мы перезвоним в течение 10 минут
+                  Оставьте заявку и я перезвоню в течение 10 минут
                 </p>
               </CardHeader>
               <CardContent>

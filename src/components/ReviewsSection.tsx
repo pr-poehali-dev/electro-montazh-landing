@@ -15,7 +15,7 @@ const ReviewsSection = () => {
       name: "Елена Смирнова",
       location: "пос. Дубровка",
       rating: 5,
-      text: "Подключали электричество в новом доме. Мастер приехал вовремя, все объяснил, работу выполнил качественно. Цены адекватные. Рекомендую!",
+      text: "Подключал электричество в новом доме. Алексей приехал вовремя, все объяснил, работу выполнил качественно. Цены адекватные. Рекомендую!",
       service: "Подключение дома",
       date: "Июль 2024"
     },
@@ -72,7 +72,7 @@ const ReviewsSection = () => {
             Отзывы клиентов
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Более 500 довольных клиентов доверили нам свои проекты
+            Отзывы реальных клиентов, которым я помог с электрикой
           </p>
         </div>
 
@@ -106,7 +106,7 @@ const ReviewsSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-2xl font-bold text-secondary mb-6">
-              Почему нам доверяют?
+              Почему мне доверяют?
             </h3>
             <div className="space-y-4">
               <div className="flex items-start gap-4">
@@ -125,7 +125,7 @@ const ReviewsSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-secondary mb-1">Гарантия качества</h4>
-                  <p className="text-gray-600 text-sm">Даем расширенную гарантию на все виды работ</p>
+                  <p className="text-gray-600 text-sm">Даю гарантию 2 года на все виды работ</p>
                 </div>
               </div>
 
@@ -135,7 +135,7 @@ const ReviewsSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-secondary mb-1">Пунктуальность</h4>
-                  <p className="text-gray-600 text-sm">Всегда приезжаем вовремя и укладываемся в сроки</p>
+                  <p className="text-gray-600 text-sm">Всегда приезжаю вовремя и укладываюсь в сроки</p>
                 </div>
               </div>
 

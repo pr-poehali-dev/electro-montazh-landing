@@ -7,11 +7,11 @@ const Navigation = () => {
 
   const navItems = [
     { name: 'Главная', href: '#hero' },
+    { name: 'Обо мне', href: '#about' },
     { name: 'Услуги', href: '#services' },
     { name: 'Портфолио', href: '#portfolio' },
-    { name: 'Прайс', href: '#pricing' },
+    { name: 'Цены', href: '#pricing' },
     { name: 'Отзывы', href: '#reviews' },
-    { name: 'Гарантии', href: '#guarantees' },
     { name: 'Контакты', href: '#contacts' },
   ];
 
@@ -29,7 +29,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <Icon name="Zap" className="text-primary" size={28} />
-            <span className="text-xl font-bold text-secondary">ЭлектроМастер</span>
+            <span className="text-xl font-bold text-secondary">Алексей Михайлов</span>
           </div>
 
           <div className="hidden md:flex items-center gap-8">
@@ -46,7 +46,7 @@ const Navigation = () => {
 
           <div className="hidden md:block">
             <Button onClick={() => scrollToSection('#contacts')} className="bg-primary hover:bg-primary/90">
-              Заказать звонок
+              Позвонить
             </Button>
           </div>
 
@@ -74,7 +74,7 @@ const Navigation = () => {
                 onClick={() => scrollToSection('#contacts')} 
                 className="bg-primary hover:bg-primary/90 mt-2"
               >
-                Заказать звонок
+                Позвонить
               </Button>
             </div>
           </div>

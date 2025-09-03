@@ -16,12 +16,12 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold text-secondary leading-tight">
-                Профессиональный 
-                <span className="text-primary block">электромонтаж</span>
+                Алексей Михайлов
+                <span className="text-primary block">мастер-электрик</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Качественные электромонтажные работы в квартирах и частных домах. 
-                Гарантия качества и безопасности на все виды работ.
+                Выполняю качественные электромонтажные работы в квартирах и частных домах. 
+                Работаю честно, с гарантией. 8 лет опыта.
               </p>
             </div>
 
@@ -36,7 +36,7 @@ const HeroSection = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Icon name="Award" className="text-primary" size={24} />
-                <span className="text-gray-700 font-medium">Гарантия 3 года</span>
+                <span className="text-gray-700 font-medium">Гарантия 2 года</span>
               </div>
             </div>
 
@@ -47,7 +47,7 @@ const HeroSection = () => {
                 className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg"
               >
                 <Icon name="Phone" className="mr-2" size={20} />
-                Вызвать мастера
+                Позвонить мне
               </Button>
               <Button 
                 variant="outline" 
@@ -56,22 +56,22 @@ const HeroSection = () => {
                 className="border-primary text-primary hover:bg-primary/10 px-8 py-4 text-lg"
               >
                 <Icon name="Calculator" className="mr-2" size={20} />
-                Узнать цены
+                Мои цены
               </Button>
             </div>
 
             <div className="grid grid-cols-3 gap-4 pt-8 border-t">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">500+</div>
-                <div className="text-gray-600">Объектов</div>
+                <div className="text-3xl font-bold text-primary">400+</div>
+                <div className="text-gray-600">Выполнено работ</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary">8</div>
-                <div className="text-gray-600">Лет опыта</div>
+                <div className="text-gray-600">Лет работаю</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary">100%</div>
-                <div className="text-gray-600">Гарантия</div>
+                <div className="text-gray-600">Качество</div>
               </div>
             </div>
           </div>
